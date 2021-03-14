@@ -37,7 +37,10 @@ client.on('message', msg => {
 			msg.reply(' wait. Are you a racist? No, no that cant be! Its not too late to reconsider your life choices and judge people by their charachter, rather than their skin color.');
 
 		case '!commands':
-			msg.reply(' !saturday, !endrit, !anime, !ask, !cry, !mge, !div, !pfp')
+			msg.reply(' !saturday, !endrit, !anime, !ask, !cry, !mge, !div, !pfp, !invite')
+			break;
+		case '!invite':
+			msg.reply('https://discordapp.com/oauth2/authorize?client_id=820709975579688987&scope=bot');
 			break;
 		}
 
