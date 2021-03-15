@@ -47,7 +47,6 @@ client.on('message', msg => {
 			break;
 		case '!mge':
 			console.log(Date() + "\nRecieved mge " + msg.author + '\n');
-			// let attachment4 = new MessageAttachment('https://images-ext-1.discordapp.net/external/Ss7n5GmKxAJFC7FQzRFO_a2baCZwp_EBLOILjcibrNY/https/media.discordapp.net/attachments/815275671873388568/817099991851204688/caption.gif');
 			let randomNumber = getRandomInt(3);
 			while (randomNumber === previousMgeMeme) {
 				randomNumber = getRandomInt(3);
